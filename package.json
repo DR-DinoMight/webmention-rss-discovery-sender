@@ -1,0 +1,30 @@
+{
+  "name": "webmention-rss-discovery-sender",
+  "version": "0.0.1",
+  "description": "A simple webmention discovery and sender tool, that reads feed.xml and sends webmentions to the mentioned links of a post",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "webmention",
+    "rss",
+    "discovery",
+    "sender"
+  ],
+  "author": "Matthew Peck-Deloughry <matt+npm@deloughry.co.uk> (https://deloughry.co.uk)",
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^4.0.7",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31"
+  }
+}
