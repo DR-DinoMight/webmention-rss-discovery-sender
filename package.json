@@ -12,6 +12,10 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DR-DinoMight/webmention-rss-discovery-sender.git"
+  },
   "keywords": [
     "webmention",
     "rss",
